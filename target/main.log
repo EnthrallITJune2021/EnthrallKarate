@@ -1,0 +1,51 @@
+23:10:36.574 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:57:42.071 driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"","error":"unknown error","message":"Process unexpectedly closed with status 0"}}, options: {type=geckodriver, executable=C:/Users/mdnas/eclipse-workspace/com.enthrall.karate/drivers/geckodriver.exe, target=null}
+ype=geckodriver, target=null}
+Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 16 Dec 2021 03:02:20 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IyOp9n1qbcSOqvAZE991kZotgO4ckAJahAVLMBHmswqGKDaVfEGTnZENFsxgjpc4Gjf09dHF3IAIZ1uQYavCsx5ZCePIurjqM1yNi%2FAVMArA2c9KIm9vEtRORZI%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:02:20.793 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+22:02:20.798 request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_181)
+
+22:02:21.056 response time in milliseconds: 255.68
+1 < 200
+1 < Age: 2259
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 6be4ac1d197f1a07-EWR
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 16 Dec 2021 03:02:20 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1XMPWRpO8zAHb3MRxWBY8p0w0pZnDDXgaQSNiDVUlGPWo%2FBj89ABdkBp6M5BDDTHW8a%2F%2BecZBlN%2FGGYy3LBLoGjbqrVMDCnvQWfpoUKAU4LIRisdp%2Fh20%2FLa7wQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < access-control-allow-origin: *
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+1 < etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < via: 1.1 vegur
+1 < x-powered-by: Express
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:02:21.063 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js

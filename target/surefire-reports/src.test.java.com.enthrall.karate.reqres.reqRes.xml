@@ -1,0 +1,66 @@
+<testsuite failures="4" name="src/test/java/com/enthrall/karate/reqres/reqRes.feature" skipped="0" tests="4" time="0">
+  <testcase classname="src.test.java.com.enthrall.karate.reqres.reqRes" name="get user list" time="0">
+    <failure message="reqRes.feature:10 - failed to construct class by name: karate-http.properties not found, aborting">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:10 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:10)</failure>
+  </testcase>
+  <testcase classname="src.test.java.com.enthrall.karate.reqres.reqRes" name="get single user" time="0">
+    <failure message="reqRes.feature:18 - failed to construct class by name: karate-http.properties not found, aborting">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:10 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:10)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:18 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:18)</failure>
+  </testcase>
+  <testcase classname="src.test.java.com.enthrall.karate.reqres.reqRes" name="UI Automation Chrome" time="0">
+    <failure message="reqRes.feature:24 - failed to construct class by name: karate-http.properties not found, aborting">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:10 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:10)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:18 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:18)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:24 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:24)</failure>
+  </testcase>
+  <testcase classname="src.test.java.com.enthrall.karate.reqres.reqRes" name="UI Automation Mozilla" time="0">
+    <failure message="reqRes.feature:30 - failed to construct class by name: karate-http.properties not found, aborting">* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:10 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:10)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:18 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:18)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:24 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:24)&#13;
+
+* scenario init failed .................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: reqRes.feature:30 - failed to construct class by name: karate-http.properties not found, aborting&#13;
+	at ✽.* scenario init failed (reqRes.feature:30)</failure>
+  </testcase>
+</testsuite>
